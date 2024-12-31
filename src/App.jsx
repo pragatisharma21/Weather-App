@@ -14,7 +14,7 @@ function App() {
 
     try {
       const res = await fetch(
-        `http://api.weatherapi.com/v1/current.json?key=dda2fdd34b434952be391846243112&q=${city}&aqi=no`
+        `http://api.weatherapi.com/v1/current.json?key=${import.meta.env.VITE_API_KEY}&q=${city}&aqi=no`
       );
       const data = await res.json();
 
