@@ -37,7 +37,7 @@ function App() {
       <div className="flex items-center gap-4 mb-6">
         <input
           type="text"
-          placeholder="Enter City name"
+          placeholder="Enter City Name"
           value={city}
           onChange={(e) => setCity(e.target.value)}
           className="px-6 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
